@@ -1,1 +1,1 @@
-# programming1_sem2
+# exercises
