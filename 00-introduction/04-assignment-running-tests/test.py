@@ -1,5 +1,4 @@
 def test_script(capsys):
-    import student
 
     captured = capsys.readouterr()
     output = captured.out
