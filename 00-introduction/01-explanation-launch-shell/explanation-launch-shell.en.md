@@ -1,4 +1,4 @@
-# Shell K
+# Shell
 
 A [shell](https://en.wikipedia.org/wiki/Shell_(computing)) is a piece of software that allows us to communicate with the operating system.
 For example, on Windows, the desktop, the taskbar and File Explorer all are part of Windows's shell.
