@@ -42,5 +42,4 @@ You'll find that floor division comes in handy more often than you might think.
 
 * The types of the results can be different: `5.0 // 3.0` evaluates to `1.0` whereas `floor(5 / 3)` evaluates to `1`.
 * When your operands are `int`s to begin with, `//` is the faster choice.
-  You can run `demo-benchmark-div.py` to see for yourself.
 
