@@ -34,7 +34,7 @@ capsys = <_pytest.capture.CaptureFixture object at 0x00000123EE11C210>
         captured = capsys.readouterr()
         output = captured.out
 
->       assert output == 'Hello!\n', f"Expected output is 'Hello!', instead you printed 'Hello'"
+>       assert output == 'Hello!\n', f"Expected output is 'Hello!', instead you printed {output}"
 E       AssertionError: Expected output is 'Hello!', instead you printed 'Hello'
 E       assert 'Hello\n' == 'Hello!\n'
 E         - Hello!
@@ -86,7 +86,7 @@ $ pytest --tb=no test.py
 
 ### INFO
 In the future, there will be many tests per exercise.
-If you made a mistake, there tests could all fail and you will be faced with a barrage of error messages.
+If you made a mistake, these tests could all fail and you will be faced with a barrage of error messages.
 You can have pytest stop running after the first failure.
 
 
