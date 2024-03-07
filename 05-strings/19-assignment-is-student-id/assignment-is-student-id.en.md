@@ -3,10 +3,10 @@
 We want to be able to check whether a string forms a valid student id.
 The rules are as follows:
 
-- A student id must count exactly nine characters.
+- A student id must count exactly eight characters.
 - The first character must be an `r` or an `s`.
   Both upper and lowercase are acceptable.
-- The remaining eight characters must all be digits.
+- The remaining seven characters must all be digits.
 
 ### `TASK`
 
