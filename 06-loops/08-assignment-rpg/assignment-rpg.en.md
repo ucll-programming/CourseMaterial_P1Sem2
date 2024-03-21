@@ -21,7 +21,7 @@ Write a function `rpg2(n_sides, goal)` that returns the probability that we get 
 
 - You'll need nested loops (a `for` inside a `for`).
 - Each loop will represent one die: each must iterate from `1` to `n_sides`.
-- Inside the inner loop, take the sum and use an `if` to check if the sum is greater than `goal`.
+- Inside the inner loop, take the sum and use an `if` to check if the sum is greater than or equal to `goal`.
 - We need to count how many times this is the case: introduce a local variable initialized to `0` for this purpose.
 
 ### `TASK`
